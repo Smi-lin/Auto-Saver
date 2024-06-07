@@ -1,0 +1,48 @@
+.dashboard__ {
+    height: 85vh;
+  }
+  
+  .dashboard__ nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #0f2151;
+    height: 78vh;
+    color: aliceblue;
+    border-bottom-right-radius: 100px;
+  }
+  
+  .dashboard__ nav p {
+    color: aliceblue;
+  }
+  
+  .dashboard__ nav > div {
+    display: flex;
+  }
+  .dashboard__ nav > div a {
+    color: aliceblue;
+  }
+  
+  .dashboard__ .txn {
+    padding: 15px 0;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+  }
+  
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
